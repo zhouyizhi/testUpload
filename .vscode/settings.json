@@ -1,0 +1,7 @@
+{
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": true,
+    "editor.fontSize": 13,
+    "editor.tabSize": 4,
+    "typescript.check.workspaceVersion": false
+}

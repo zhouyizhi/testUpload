@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="portal">
+        <button (click)="createPDF()">PDF生成</button>
+        <br />
+        <button (click)="createPDF2()">PDF生成2</button>
+        <svg class="barcode"
+        jsbarcode-format="upc"
+        jsbarcode-value="123456789012"
+        jsbarcode-textmargin="0"
+        jsbarcode-fontoptions="bold">
+        </svg>
+        <div id='test'></div>
+        <hr />
+        <h1 class="text-center login-title">News from yahoo.co.jp</h1>
+        <div class="content" [innerHtml]="content">
+        </div>
+        
+    </div>
+</div>
